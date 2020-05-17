@@ -3,7 +3,7 @@ using System;
 
 namespace GradeBook
 {
-    class Book
+    public class Book
     {
         List<double> _grades;
         private string _name;
