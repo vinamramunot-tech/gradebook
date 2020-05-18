@@ -8,6 +8,6 @@ from the scores.<br>The grades are entered as floating point numbers from 0 to 1
 
 
 <hr>
-Next Implementation
-1. ASP.NET project with Reactjs integration
+Next Implementation<br>
+1. ASP.NET project with Reactjs integration<br>
 2. Blazor Webassembly app with Bootstrap UI
