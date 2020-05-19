@@ -5,10 +5,17 @@ namespace GradeBook
 {
     public class Book
     {
-        List<double> _grades;
-        public string Name;
+        private List<double> _grades;
+
+        public string Name
+        {
+            get; private set;
+        }
+
+        public const string CATEGORY = "Science";
         public Book(string name)
         {
+            
             _grades = new List<double>();
             Name = name;
 
@@ -20,7 +27,7 @@ namespace GradeBook
             {
                 _grades.Add(grade);
             }else{
-                Console.WriteLine("Invalid value");
+                throw new ArgumentException($"Invalid {nameof(grade)}");
             }
 
         }

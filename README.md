@@ -18,3 +18,12 @@ dotnet test
 Next Implementation<br>
 1. ASP.NET project with Reactjs integration<br>
 2. Blazor Webassembly app with Bootstrap UI
+
+Encapsulation
+>hide detail about the code
+
+Inheritance
+>Reuse code across similar classes
+
+Polymorphism
+>objects of the same type that can behave differently
