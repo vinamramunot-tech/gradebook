@@ -34,14 +34,13 @@ namespace GradeBook
             result.High = double.MinValue;
 
             var index = 0;
-
-            do
+            while(index < _grades.Count)
             {
                 result.Low = Math.Min(_grades[index], result.Low);
                 result.High = Math.Max(_grades[index], result.High);
                 result.Average += _grades[index];
                 index += 1;
-            }while(index < _grades.Count);
+            }
 
             result.Average /= _grades.Count;
 
