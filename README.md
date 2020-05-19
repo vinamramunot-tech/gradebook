@@ -7,6 +7,13 @@
 from the scores.<br>The grades are entered as floating point numbers from 0 to 100, and the statistics should show us the highest grade the lowest grade, and the average grade.</p>
 
 
+>running it using solution file in the dotnet run time environment
+
+```dotnetcli
+dotnet build
+dotnet test
+```
+
 <hr>
 Next Implementation<br>
 1. ASP.NET project with Reactjs integration<br>
