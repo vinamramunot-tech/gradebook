@@ -27,3 +27,5 @@ Inheritance
 
 Polymorphism
 >objects of the same type that can behave differently
+
+adding another class
